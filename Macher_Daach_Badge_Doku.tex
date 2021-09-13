@@ -4,10 +4,10 @@
 \usepackage{hyperref} % Für Links
 
 \title{Macherdaach-Badge \\ Lötanleitung \\ [1cm]
-\includegraphics[width=0.6\textwidth, angle=90]{Bilder2019/IMG_6443.JPG}
+\includegraphics[width=0.6\textwidth, angle=90]{Bilder2021/IMG_8181.JPG}
 }
-\date{September 2019}
-\author{casartar\\peter.scheydt@ztl.space}
+\date{September 2021}
+\author{casartar\\casartar@web.de}
 
 \usepackage{natbib}
 \usepackage{graphicx}
@@ -36,7 +36,7 @@ Du musst nur wenige Bauteile verlöten, bis du ein vollfunktionsfähes Badge dei
 Wir wünschen viel Spaß und gutes Gelingen. 
 
 \section{Die Bauteile stellen sich vor}
-Alle Bauteile, die du für deinen Macherdaach-Badge brauchst, findest du in einer Tüte, die du von einem der freundlichen Helfer  am Tisch überreicht bekommst.
+Alle Bauteile, die du für deinen Macherdaach-Badge brauchst, findest du in einer Tüte, die du von einem der freundlichen Helfer am Tisch überreicht bekommst.
 
 Folgende Bauteile sollten in der Tüte drin sein:
 
@@ -45,19 +45,17 @@ Folgende Bauteile sollten in der Tüte drin sein:
 	\item LED-Matrix
 	\item Sockel für den Mikrocontroller
 	\item Zwei Taster
-	\item 10k$\Omega$ Widerstand
-	\item Zwei 100nF Kondensatoren
-	\item 100$\mu$F Elektrolytkondensator
-	\item Einreihige Stiftleiste 4 Pins
-	\item Zweireihige Stiftleiste 3 Pins
-	\item Schalter
+	\item 100 nF Kondensator
+	\item 100 $\mu$F Elektrolytkondensator
+	\item Schiebeschalter
 	\item Knopfzellenhalter
+	\item Knopfzelle
 \end{enumerate}
 
-
+\newpage
 
 \begin{center}
-\includegraphics[width=\textwidth]{Bilder2019/IMG_6317.JPG}
+\includegraphics[width=\textwidth]{Bilder2021/IMG_8123.JPG}
 \captionof{figure}{Alle Bauteile auf einen Blick}
 \label{fig:all_components}
 \end{center}
@@ -77,35 +75,21 @@ Oder suche auf github.com nach Macherdaach.
 \section{Jetzt geht es richtig los}
 Wir löten die Bauteile nach der Regel: Das niedrigste Bauteil zuerst.
 
-\subsection{Widerstand - R1 (10k$\Omega$)}
-Zuerst nimmst du den 10k$\Omega$ Widerstand und biegst die Anschlussdrähte nach unten. Dabei musst du darauf achten, die Drähte direkt am Gehäuse zu biegen, sonst passen sie später nicht richtig in die Bohrlöcher. Anschließend steckst du den Widerstand an die mit R1 markierte Stelle auf der Platine.
+\subsection{Kondensatoren - C2 (100 nF)}
 
-Dann legst du die Platine so hin, dass der Widerstand gegen das Brett gedrückt wird und verlötest die beiden Beinchen.
-
+Zuerst nimmst du den 100 nF Kondensator und steckst du ihn an die mit C2 markierte Stelle auf der Platine.
+Dann legst du die Platine so hin, dass der Kondensator gegen das Brett gedrückt wird und verlötest die beiden Beinchen.
 Zum Schluss müssen die überstehenden Beinchen noch mit der Zange abgezwickt werden.
 
 \vspace{1cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6319.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8124.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6321.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\vspace{0.5cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6322.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6323.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8125.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -113,30 +97,12 @@ Zum Schluss müssen die überstehenden Beinchen noch mit der Zange abgezwickt we
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6324.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8126.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6325.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\subsection{Kondensatoren - C2 und C3 (100nF)}
-
-Als nächstes kommen nacheinander die beiden 100nF Kondensatoren dran.
-Das funktioniert genau wie beim Widerstand, nur das die Anschlussdrähte schon in die richtige Richtung zeigen.
-
-\vspace{1cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6326.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6331.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8127.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -144,25 +110,7 @@ Das funktioniert genau wie beim Widerstand, nur das die Anschlussdrähte schon i
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6332.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6333.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\vspace{0.5cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6334.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6335.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8128.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -178,25 +126,12 @@ Wenn der Sockel richtig sitzt, kannst du die Platine wieder umdrehen und die Pla
 \vspace{1cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6336.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8129.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6337.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\vspace{0.5cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6338.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6339.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8130.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -204,12 +139,25 @@ Wenn der Sockel richtig sitzt, kannst du die Platine wieder umdrehen und die Pla
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6341.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8132.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6343.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8133.JPG}
+	%\captionof{figure}{}
+	%\label{fig:}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\begin{minipage}[b]{0.5\textwidth}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8134.JPG}
+	%\captionof{figure}{}
+	%\label{fig:}
+\end{minipage}
+\begin{minipage}[b]{0.5\textwidth}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8135.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -225,25 +173,12 @@ Wenn du den Knopfzellenhalter festlötest, wirst du merken, dass das nicht so ei
 \vspace{1cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6344.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8139.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6345.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\vspace{0.5cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6346.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6347.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8140.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -251,12 +186,12 @@ Wenn du den Knopfzellenhalter festlötest, wirst du merken, dass das nicht so ei
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6348.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8141.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6349.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8142.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -264,12 +199,20 @@ Wenn du den Knopfzellenhalter festlötest, wirst du merken, dass das nicht so ei
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6350.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8143.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6351.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8144.JPG}
+	%\captionof{figure}{}
+	%\label{fig:}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\begin{minipage}[b]{0.5\textwidth}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8145.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -283,25 +226,12 @@ Nun kannst du mit dem Zeigefinger den Schalter von hinten auf die Platine drück
 \vspace{1cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6353.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8146.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6354.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\vspace{0.5cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6355.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6356.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8148.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -309,12 +239,25 @@ Nun kannst du mit dem Zeigefinger den Schalter von hinten auf die Platine drück
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6357.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8149.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6358.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8150.JPG}
+	%\captionof{figure}{}
+	%\label{fig:}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\begin{minipage}[b]{0.5\textwidth}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8151.JPG}
+	%\captionof{figure}{}
+	%\label{fig:}
+\end{minipage}
+\begin{minipage}[b]{0.5\textwidth}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8152.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -328,12 +271,12 @@ Beim Löten machst du das am Besten so wie beim Mikrocontrollersockel. Du lötes
 \vspace{1cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6352.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8153.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6360.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8154.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -341,12 +284,12 @@ Beim Löten machst du das am Besten so wie beim Mikrocontrollersockel. Du lötes
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6361.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8155.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6362.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8156.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -360,12 +303,12 @@ Die Taster kann man zum Glück auch nicht falsch herum anlöten.
 \vspace{1cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6364.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8157.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6365.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8158.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -373,17 +316,17 @@ Die Taster kann man zum Glück auch nicht falsch herum anlöten.
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6366.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8159.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6367.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8156.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 
-\subsection{Elektrolytkondensator - C1 (100$\mu$F)}
+\subsection{Elektrolytkondensator - C1 (100 $\mu$F)}
 
 Beim Elektrolytkondensator, dem so genannten Elko, musst du wieder auf die richtige Polung achten. Der Minus-Pol ist am Elko mit einem schwarzen Strich markiert, wo ein kleines blaues Minus-Zeichen aufgedruckt ist.
 
@@ -392,46 +335,12 @@ Auf der Platine ist der Minus-Pol mit einem weiß ausgefüllten Halbkreis markie
 \vspace{1cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6368.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8162.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6369.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\vspace{0.5cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6371.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6372.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\subsection{Stiftleisten}
-
-Das Anlöten der Stiftleisten ist der schwierigste Teil, den du bewältigen musst. Du musst das Lötzinn wieder so vorbereiten wie beim Ein/Aus-Schalter.
-
-Eine weitere Schwierigkeit ist, dass sich die einreihigen Stiftleisten nicht so gerne gerade auflöten lassen. Besonders wenn man mit dem Finger auf die Metallspitzen drückt um die Leiste an der Platine zu fixieren.
-
-Deshalb drückst du am Besten mit dem Fingernagel auf den Plastikteil der Stiftleiste. Das hat außerdem den Vorteil, dass du dir beim Festlöten nicht so leicht die Finger verbrennst.
-
-\vspace{1cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6373.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6374.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8163.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -439,38 +348,12 @@ Deshalb drückst du am Besten mit dem Fingernagel auf den Plastikteil der Stiftl
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6375.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8164.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6378.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\vspace{0.5cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6379.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6380.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\vspace{0.5cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6381.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6382.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8165.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -491,25 +374,12 @@ Den Vorgang wiederholst du mit der anderen Pinreihe, indem du den Controller ein
 \vspace{1cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6383.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8166.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6384.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-
-\vspace{0.5cm}
-
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6385.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6387.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8167.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -517,7 +387,20 @@ Den Vorgang wiederholst du mit der anderen Pinreihe, indem du den Controller ein
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6388.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8168.JPG}
+	%\captionof{figure}{}
+	%\label{fig:}
+\end{minipage}
+\begin{minipage}[b]{0.5\textwidth}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8169.JPG}
+	%\captionof{figure}{}
+	%\label{fig:}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\begin{minipage}[b]{0.5\textwidth}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8170.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -532,12 +415,12 @@ Wenn dein Schalter auf Ein steht sollte dein Badge anfangen wie wild zu blinken.
 \vspace{1cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6389.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8171.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6390.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8172.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
@@ -545,23 +428,18 @@ Wenn dein Schalter auf Ein steht sollte dein Badge anfangen wie wild zu blinken.
 \vspace{0.5cm}
 
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6391.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8173.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 \begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6392.JPG}
+	\includegraphics[width=\textwidth]{Bilder2021/IMG_8174.JPG}
 	%\captionof{figure}{}
 	%\label{fig:}
 \end{minipage}
 
 \vspace{0.5cm}
 
-\begin{minipage}[b]{0.5\textwidth}
-	\includegraphics[width=\textwidth]{Bilder2019/IMG_6394.JPG}
-	%\captionof{figure}{}
-	%\label{fig:}
-\end{minipage}
 
 \section{Was tut es?}
 
@@ -582,7 +460,7 @@ Ein zwei Personen-Spiel auf kleinstem Raum. Drücke Deine Taste, wenn der Ball k
 \textbf{Crazy Snake:}\\
 Die Schlange macht lustige Runden über das Display, am einen Rand raus, am anderen wieder rein. Sie stößt mit sich selbst nicht zusammen und ist darum unsterblich. Je länger sie wird, um so schneller flitzt sie rum und wenn sie alt wird verzehrt sie sich langsam wieder selbst. Endloser Spaß für die ganze Familie!\\
 
-Mit den beiden Tastern kann man die Schlange nach links und rechts abbiegen lassen und so versuchen die Mäuse zu fangen.\\
+Mit den beiden Tastern kann man die Schlange nach links und rechts abbiegen lassen und so versuchen die Mäuse zu fangen.
 
 \bibliographystyle{plain}
 \bibliography{references}
